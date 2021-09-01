@@ -1,0 +1,60 @@
+/*------------------------------------------------------------------
+    Template Name: iMac Configuration
+    Template URI: https://imac-configuration.netlify.app/
+    Description: This is HTML5 , CSS3 , Bootstrap Practical JavaScript Template.
+    Author: Md Ohidur Rahman
+    Author Email: ohidur.ru.2019@gmail.com
+    Author URI: https://www.facebook.com/ohidur.AlexMarcer/
+    Version: 1.0
+--------------------------------------------------------------------
+/*------------------------------------------------------------------
+                Programming Hero Assigment Requirements;
+
+                    1. Aqurate UI Theme.              (98%)            (OK)
+                    2. Bootstrap Framework Used.      (98%)            (OK)
+                    3. Memory, Stroage, Delivery Button Click Worked.  (OK)
+                    4. Poppins Font By Imported Google Link.           (OK)
+                    5. Default iMac Price Fixed($1299).                (OK)
+
+                For Bonus Marks
+
+                    1. Footer Total Value 20%Off Promo Code Function.  (OK)
+                    2. Meaningful ClassName/idName And Code Format.    (OK)
+                    3. Try To use Private Repository & Netlify Deploy. (OK)
+
+/*----------------------------------------*/
+/*         Imported Google Fonts
+/*----------------------------------------*/ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+/*----------------------------------------*/
+/*        Theme default CSS Start
+/*----------------------------------------*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header-height {
+    height: 100px;
+    color: #0d6efd;
+}
+.search-form {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #0d6efd;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+        border-top-right-radius: 0.25rem;
+        border-bottom-right-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+}
