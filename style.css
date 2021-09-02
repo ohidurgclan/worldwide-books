@@ -1,7 +1,7 @@
 /*------------------------------------------------------------------
-    Template Name: iMac Configuration
-    Template URI: https://imac-configuration.netlify.app/
-    Description: This is HTML5 , CSS3 , Bootstrap Practical JavaScript Template.
+    Template Name: Worldwide Books
+    Template URI: https://worldwide-books.netlify.app/
+    Description: This is HTML5 , CSS3 , Bootstrap Practical & JavaScript Template.
     Author: Md Ohidur Rahman
     Author Email: ohidur.ru.2019@gmail.com
     Author URI: https://www.facebook.com/ohidur.AlexMarcer/
@@ -10,17 +10,22 @@
 /*------------------------------------------------------------------
                 Programming Hero Assigment Requirements;
 
-                    1. Aqurate UI Theme.              (98%)            (OK)
-                    2. Bootstrap Framework Used.      (98%)            (OK)
-                    3. Memory, Stroage, Delivery Button Click Worked.  (OK)
+                    1. Must be use Private Repository                  (OK)
+                    2. Bootstrap Framework Used.      (99%)            (OK)
+                    3. Book Name, Author Name & Published Date         (OK)
                     4. Poppins Font By Imported Google Link.           (OK)
-                    5. Default iMac Price Fixed($1299).                (OK)
+                    5. 12 Card Data in a Row.                          (OK)
+                    6. How Much Result Found in Search.                (OK)
 
                 For Bonus Marks
 
-                    1. Footer Total Value 20%Off Promo Code Function.  (OK)
-                    2. Meaningful ClassName/idName And Code Format.    (OK)
-                    3. Try To use Private Repository & Netlify Deploy. (OK)
+                    1. Must Be Use Arrow Function [() => {}].          (OK)
+                    2. Use forEach() Methood in Funcrion.              (OK)
+                    3. Must Use (===) Equal Sign in Conditions.        (OK)
+                    4. Make Sure Dynamic Image URL ${Id} Use.          (OK)
+                    5. Use forEach() Methood in Funcrion.              (OK)
+                    6. Good User Interface.
+                    7. Try To use Private Repository & Netlify Deploy. (OK)
 
 /*----------------------------------------*/
 /*         Imported Google Fonts
@@ -57,4 +62,21 @@ body {
         border-bottom-right-radius: 0.25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+.mtb-auto {
+    margin-top: 26%;
+    margin-bottom: 0%;
 }
+.img-height {
+    height: 15rem;
+}
+.card-shadow {
+    box-shadow: 8px 8px 80px lightgray;
+    border: 1px solid #0d6efd;
+}
+/*----------------------------------------*/
+/*        Theme default CSS Ends
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*   Thank You Programming Hero Exmaminer.
+                Have a nice Day
+/*----------------------------------------*/

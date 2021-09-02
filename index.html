@@ -1,67 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Favorite Book</title>
+    <title>Worldwide Book</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-<!-------------------------
+        <!-------------------------
             Header Starts 
     --------------------------->
-<header class="container-fluid bg-light d-flex align-items-center justify-content-center header-height mb-5">
-    <h1>Worldwide Books Collections.</h1>
-</header>
-<!-------------------------
+        <header class="container-fluid bg-light d-flex align-items-center justify-content-center header-height mb-5">
+            <h1>Worldwide Books Collections.</h1>
+        </header>
+        <!------------------------------
         Header Ends
     --------------------------->
-<!-------------------------
+        <!------------------------------
         Main Content Starts 
     --------------------------->
-    <main class="content">
-        <section class="search-box mb-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xxl-3 col-xl-3 col-md-3"></div>
-                    <div class="col-xxl-6 col-xl-6 col-md-6">
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control search-form" placeholder="Search Your Favorite Books . . ."
-                                aria-label="Recipient's username" aria-describedby="button-addon2">
-                            <button class="btn btn-outline-primary" type="button" id="button-addon2">Search</button>
+        <main class="content">
+            <!---------------------------------
+                Search Section Starts 
+        ---------------------------------->
+            <section class="search-box mb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xxl-3 col-xl-3 col-md-3"></div>
+                        <div class="col-xxl-6 col-xl-6 col-md-6">
+                            <div class="input-group mb-3">
+                                <input id="inputValue" type="text" class="form-control search-form"
+                                    placeholder="Search Your Favorite Books . . ." aria-label="Recipient's username"
+                                    aria-describedby="button-addon2">
+                                <button class="btn btn-outline-primary" type="button" id="button-addon2"
+                                    onclick="searchBooks()">Search</button>
+                            </div>
+                            <h6 id="resultFound"></h6>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-md-6">
                         </div>
                     </div>
-                    <div class="col-xxl-3 col-xl-3 col-md-3"></div>
                 </div>
-            </div>
-        </section>
-        <section class="search-result">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xxl-12 col-xl-12 col-md-12">
-                       
+            </section>
+            <!---------------------------------
+            Search Section Ends 
+        ---------------------------------->
+            <!---------------------------------
+            Dynamic Card Section Starts 
+        ---------------------------------->
+            <section class="search-result">
+                <div class="container">
+                    <div id="createCard" class="row">
+
                     </div>
                 </div>
-            </div>
-        </section>
-    </main>
-    <!-------------------------
+            </section>
+            <!---------------------------------
+            Dynamic Card Section Ends 
+        ---------------------------------->
+        </main>
+        <!-------------------------
             Main Content Ends 
         --------------------------->
-    <!-------------------------
+        <!-------------------------
             Footer Starts 
         --------------------------->
-    <footer class="container-fluid bg-light d-flex align-items-center justify-content-center header-height">
-        <h6>Copyright &copy; 2021 Worldwide Books All Rights Reserved.</h6>
-    </footer>
-    <!-------------------------
-            Footer Starts 
+        <footer class="d-flex mtb-auto">
+            <div class="container-fluid d-flex bg-light align-items-center justify-content-center header-height">
+                <h6>Copyright &copy; 2021 Worldwide Books All Rights Reserved.</h6>
+            </div>
+        </footer>
+        <!-------------------------
+            Footer Ends 
     --------------------------->
-    <!-- JavaScript Files -->
-    <script src="book.js"></script>
+        <!-- JavaScript Files -->
+        <script src="book.js"></script>
 </body>
+
 </html>
